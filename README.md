@@ -1,3 +1,3 @@
 # Maturity Models
 
-*  [SRE Maturity Model](SRE_maturity_model.md)
+*  [SRE Maturity Model](SRE_maturity_assessment.md)
