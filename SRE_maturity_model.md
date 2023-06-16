@@ -1,4 +1,4 @@
-SRE Maturity Assessment Methodology
+# SRE Maturity Assessment Methodology
    * Data Collection
       * Initial briefing:
          * Schedule a meeting with the stakeholders involved in the project to gather input on their expectations, concerns, and the existing state of affairs.
