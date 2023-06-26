@@ -1,6 +1,7 @@
 # 150 Open questions:
 
-## 1. Failure Tolerance (Failover, Global work scheduling, Failed task management):
+## 1. Failure Tolerance 
+### (Failover, Global work scheduling, Failed task management):
     1. How is failover handling implemented within the system?
     2. What global work scheduling mechanisms are in place to ensure fault tolerance?
     3. How does the system manage failed tasks, and what retry mechanisms are in place?
@@ -12,7 +13,8 @@
     9. Do you monitor and measure failover scenarios, generating metrics for analysis and improvement?
     10. Is there a documented process for testing and validating failover strategies and recovery plans?
 
-## 2. Scalability (Automatic scaling of available worker pool, Automatic dynamic resharding to effect balanced load across the pool, Load shedding/task prioritization):
+## 2. Scalability 
+### (Automatic scaling of available worker pool, Automatic dynamic resharding to effect balanced load across the pool, Load shedding/task prioritization):
     1. How does the system handle automatic scaling of the available worker pool to address workload fluctuations?
     2. How are resources allocated dynamically to ensure balanced load distribution across the worker pool?
     3. What strategies for load shedding/task prioritization are implemented in the system?
@@ -24,7 +26,8 @@
     9. How are performance bottlenecks identified and addressed as part of scalability improvements?
     10. How do you anticipate and plan future growth in system capacity and resource requirements?
 
-## 3. Monitoring & Debugging (Debugging tools and capabilities, Dashboards and visualizations):
+## 3. Monitoring & Debugging 
+### (Debugging tools and capabilities, Dashboards and visualizations):
     1. What monitoring and debugging tools are in place to maintain visibility into system performance and health?
     2. How are dashboards and visualizations utilized to enable quick identification of issues and bottlenecks?
     3. Are monitoring and debugging capabilities easily accessible and consistent across services and environments?
@@ -36,7 +39,8 @@
     9. How do you monitor the health of third-party dependencies and their impact on the system?
     10. How is the monitoring data utilized in incident response and post-mortem analyses?
 
-## 4. Ease of Implementation & Transparency (Discoverability, Code, Documentation and best practices):
+## 4. Ease of Implementation & Transparency 
+### (Discoverability, Code, Documentation and best practices):
     1. How easily can new components or services be introduced into the system?
     2. What practices are in place to maintain code readability, modularity, and maintainability?
     3. How well-documented are the APIs, libraries, and services used within the organization?
@@ -48,7 +52,8 @@
     9. How are system changes, updates, and deprecations communicated effectively within the organization?
     10. How do you evaluate and facilitate the adoption of emerging technologies, processes, and practices within the organization?
 
-## 5. Unit & Integration Testing (Unit testing framework, Ease of configuration, Support for integration testing frameworks):
+## 5. Unit & Integration Testing 
+### (Unit testing framework, Ease of configuration, Support for integration testing frameworks):
     1. What unit testing frameworks and tools are used within the organization, and how are they integrated into the development process?
     2. How easily can these testing frameworks and tools be configured and maintained to meet specific requirements?
     3. What support for integration testing frameworks is available, and how is it utilized to validate end-to-end functionality?
@@ -60,7 +65,8 @@
     9. How is test automation implemented and maintained to ensure consistent quality across the system?
     10. How do you prioritize testing efforts and resource allocation based on risk, complexity, and impact?
 
-## 6. Incident Management (Incident detection, Alerting, Incident response plans, Postmortems):
+## 6. Incident Management 
+### (Incident detection, Alerting, Incident response plans, Postmortems):
     1. How are incidents detected quickly and accurately to minimize the impact on users?
     2. What alerting mechanisms are in place to notify relevant stakeholders and responders of incidents?
     3. How comprehensive and actionable are the incident response plans, and are they easily accessible during a crisis?
@@ -72,7 +78,8 @@
     9. What measures are in place to prevent recurrence and mitigate the impact of similar incidents in the future?
     10. How do you continuously evaluate and enhance the incident management process based on real-world experiences and feedback?
 
-## 7. Performance & Latency (Performance monitoring, Latency and throughput optimization, Bottleneck identification and remediation):
+## 7. Performance & Latency 
+### (Performance monitoring, Latency and throughput optimization, Bottleneck identification and remediation):
     1. How is system performance monitored and measured, capturing metrics such as response time, throughput, and resource utilization?
     2. What mechanisms are used to optimize latency and throughput to ensure a satisfactory user experience?
     3. How are performance bottlenecks identified, and what remediation strategies are employed to address them?
@@ -84,7 +91,8 @@
     9. How do you monitor the impact of third-party dependencies and services on overall system performance and latency?
     10. What training and resources are provided to developers and operations teams to help them identify and address performance issues?
 
-## 8. Security & Compliance (Vulnerability management, Secure coding practices, Data privacy and regulatory compliance):
+## 8. Security & Compliance 
+### (Vulnerability management, Secure coding practices, Data privacy and regulatory compliance):
     1. How are vulnerabilities identified, reported, and prioritized within the organization?
     2. What secure coding practices are followed to ensure the development of secure software?
     3. How do you ensure the handling of sensitive data complies with data privacy regulations and standards?
@@ -96,7 +104,8 @@
     9. How do you ensure secure communications and data transmission across the system and its components?
     10. How are security updates and patches managed and deployed to minimize risk?
 
-## 9. Capacity Planning (Resource forecasting, Proactive capacity adjustments, Budget management and cost optimization):
+## 9. Capacity Planning 
+### (Resource forecasting, Proactive capacity adjustments, Budget management and cost optimization):
     1. How do you forecast resource requirements for the short term and long term?
     2. What proactive capacity adjustments are made based on usage patterns and forecasts?
     3. How do you manage budgets and optimize costs related to infrastructure and resource usage?
@@ -108,7 +117,8 @@
     9. What processes are in place to analyze capacity-related incidents and learn from them?
     10. How do you evaluate and plan for the potential impact of emerging technologies and trends on your capacity planning efforts?
 
-## 10. Infrastructure as Code (Infrastructure automation, Orchestration tools, Configuration management):
+## 10. Infrastructure as Code 
+### (Infrastructure automation, Orchestration tools, Configuration management):
     1. How is infrastructure automation implemented within the organization?
     2. What orchestration tools and platforms are used to automate infrastructure management, scaling, and deployment tasks?
     3. How is configuration management of infrastructure components handled, and what tools are used?
@@ -120,7 +130,8 @@
     9. How do you monitor and enforce infrastructure policies, standards, and best practices within the organization?
     10. What disaster recovery and backup strategies are in place for infrastructure components, and how are they managed through IaC practices?
 
-## 11. Continuous Integration & Deployment (CI/CD pipelines, Build automation, Automated testing and validation):
+## 11. Continuous Integration & Deployment 
+### (CI/CD pipelines, Build automation, Automated testing and validation):
     1. How are CI/CD pipelines implemented and maintained within the organization?
     2. What build automation tools and platforms are used to streamline the build, test, and deployment process?
     3. How are automated testing and validation integrated into the CI/CD pipelines?
@@ -132,7 +143,8 @@
     9. What methods are in place to deploy features gradually, such as feature flags or canary releases?
     10. How do you incorporate feedback and lessons learned from the CI/CD process into ongoing development and operations activities?
 
-## 12. SLOs and SLAs (Defining SLOs and SLAs, Monitoring and reporting, Meeting reliability targets):
+## 12. SLOs and SLAs 
+### (Defining SLOs and SLAs, Monitoring and reporting, Meeting reliability targets):
     1. How are SLOs and SLAs defined, taking into account both technical requirements and business objectives?
     2. What mechanisms are in place for monitoring and reporting on SLOs and SLAs?
     3. How do you ensure that the system meets the established reliability targets outlined in the SLOs and SLAs?
@@ -144,7 +156,8 @@
     9. What visibility and transparency are provided to stakeholders regarding SLO and SLA performance and compliance?
     10. How do you use SLO and SLA data to inform decisions and improve system reliability and performance?
 
-## 13. Cloud-Native Architecture (Microservice architecture adoption, Containerization, Orchestration using Kubernetes or similar platforms):
+## 13. Cloud-Native Architecture 
+### (Microservice architecture adoption, Containerization, Orchestration using Kubernetes or similar platforms):
     1. How is the adoption of microservice architecture being pursued within the organization to enhance scalability and maintainability?
     2. What containerization strategies and tools are in use to streamline deployment and management of applications and services?
     3. How do you leverage container orchestration platforms, such as Kubernetes, to manage and scale cloud-native applications?
@@ -156,7 +169,8 @@
     9. How do you assess and optimize performance and resource utilization in a cloud-native context?
     10. What training and resources are provided to enable team members to effectively design, develop, and manage cloud-native applications?
 
-## 14. Cross-Functional Collaboration (Communication between SRE and Development teams, Shared ownership and responsibility for reliability, Collaborative problem-solving):
+## 14. Cross-Functional Collaboration 
+### (Communication between SRE and Development teams, Shared ownership and responsibility for reliability, Collaborative problem-solving):
     1. How do you facilitate communication and collaboration between SRE and Development teams within the organization?
     2. What mechanisms are in place to promote shared ownership and responsibility for reliability across teams?
     3. How do you foster a collaborative problem-solving approach to address reliability and performance issues?
@@ -168,7 +182,8 @@
     9. How do you encourage a culture of continuous learning and experimentation across SRE and Development teams?
     10. How do you identify gaps and opportunities for improvement in cross-functional collaboration and take action to address them?
 
-## 15. Culture & Organizational Alignment (Embracing a blameless culture, Fostering a continuous improvement mindset, Alignment of goals and priorities across teams):
+## 15. Culture & Organizational Alignment 
+### (Embracing a blameless culture, Fostering a continuous improvement mindset, Alignment of goals and priorities across teams):
     1. How does the organization embrace and promote a blameless culture during incident reviews and postmortems?
     2. How do you foster a continuous improvement mindset across teams, encouraging learning from both successes and failures?
     3. How do you ensure alignment of goals and priorities between technical and business-focused teams within the organization?
