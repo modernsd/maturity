@@ -1,14 +1,3 @@
-# Maturity Models
-
-*  [SRE Maturity Assessment Methodology](SRE_maturity_assessment.md)
-    *  [SRE Maturity Matrix](SRE_maturity_matrix.md)
-        *  [75 determinative questions](75_determinative_questions.md)
-    *  [150 Open Questions](150_open_questions.md)    
-    *  [150 Yes/No Questions](150_yes_no_questions.md)
-* Other links
-    *  [adidas DevOps Maturity Framework](https://github.com/adidas/adidas-devops-maturity-framework)
-
----
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
 This work is licensed under a
