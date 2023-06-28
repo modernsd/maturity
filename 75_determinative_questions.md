@@ -101,7 +101,7 @@
 
 ### Culture & Organizational Alignment:
 71. Is the organization's culture fragmented and misaligned with goals?
-72. Is there an emerging culture of continuous improvement?
+72. Is there an emerging culture of continuous improvement and a focus on enabling team experimentation?
 73. Has a blameless culture been embraced across the organization?
 74. Is there a strong focus on continuous improvement and learning?
-75. Is there organization-wide alignment on reliability and goals?
+75. Is there organization-wide alignment on reliability, and a "build it and run it" responsibility for the team?
