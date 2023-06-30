@@ -1,7 +1,7 @@
 # Important Factors in DevOps implementation projects
 ## 23 Identified Factors:
 1. Automation testing  
-1. Clashes between Dev and Ops mentality  
+1. Clashes between Dev and Ops mentality :no_entry:
 1. Continuous delivery 
 1. Continuous delivery mode  
 1. Continuous learning  
