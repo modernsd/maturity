@@ -5,6 +5,7 @@
         *  [75 determinative questions](75_determinative_questions.md)
     *  [150 Open Questions](150_open_questions.md)    
     *  [150 Yes/No Questions](150_yes_no_questions.md)
+*  [Factors in DevOps implementation projects](23_factors.md)
 * Other links
     *  [A Research on DevOps Maturity Models](https://github.com/malenezi/malenezi/blob/master/pdfs/DevOps%20Maturity%20Models.pdf)
     *  [AWS Cloud Adoption Framework (AWS CAF)](https://aws.amazon.com/cloud-adoption-framework/)
